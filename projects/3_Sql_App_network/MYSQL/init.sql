@@ -1,0 +1,7 @@
+USE demodb;
+
+CREATE TABLE IF NOT EXISTS users (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    city VARCHAR(255) NOT NULL,
+    temperature FLOAT NOT NULL
+);
